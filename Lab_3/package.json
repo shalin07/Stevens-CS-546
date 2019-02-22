@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-3",
+  "version": "1.0.0",
+  "description": "My lab 3 module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Shalin Barot",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
