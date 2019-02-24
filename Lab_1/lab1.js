@@ -16,7 +16,7 @@ if(num===1){
     return 1;
            }
 else{
-    return questionTwo(num-1) + questionTwo(num - 2);
+    return questionTwo(num - 1) + questionTwo(num - 2);
     }
     
 }
