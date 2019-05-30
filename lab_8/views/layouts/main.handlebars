@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="utf-8">
+    <title>My Site</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <nav>
+    </nav>
+    <main>
+        {{#if hasErrors}}
+                <ul>
+            {{#each errors}}
+               <h2> <li class="error">
+                    {{this}}
+                </li></h2>
+            {{/each}}
+                </ul>
+            {{/if}}
+    </main>
+</body>
+</html>

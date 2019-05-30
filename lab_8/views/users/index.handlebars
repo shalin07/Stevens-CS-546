@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Person Found</title>
+  <link rel="stylesheet" href="../public/site.css">
+  </head>
+  <body>
+    <main>
+      <h2>{{ fname }}</h2>
+      {{#if people.length}}
+      <h1 class='c'>Person Found</h1>
+      <ul class="a">
+      {{#each people}}  
+            <li>
+              <h2 class='b'><a href="/details/{{id}}">{{firstName}} {{lastName}}</a></h2>
+            </li>>
+      {{/each}}
+      </ul>>
+      {{else}}
+      <p class="not-found">We're sorry, but no results were found for {{ fname }}.</p>
+      {{/if}}
+      <a href ='/static/people.html'>Make another search</a>
+    </main>
+  </body>
+</html>
+
+
+
