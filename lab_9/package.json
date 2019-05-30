@@ -1,0 +1,16 @@
+{
+  "name": "cs_546_lab_9",
+  "version": "1.0.0",
+  "description": "Primary number checker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Shalin Barot 10438998",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2"
+  }
+}

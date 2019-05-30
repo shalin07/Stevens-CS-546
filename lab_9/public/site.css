@@ -1,0 +1,47 @@
+body{
+    padding: 5mm;
+    color:peru;
+    font-family:'Times New Roman', Times, serif; 
+}
+h1{
+    font-size: 10mm;
+    color: green
+}
+
+.not-prime{
+    font-size: 5mm;
+    color:#FF3D00;
+}
+
+.is-prime{
+    font-size: 5mm;
+    color:#00E676;
+}
+.error{
+    display:none;
+}
+.error-Container-display{
+    display:block;
+    color:red;
+    border:1px solid red;
+    width:50%;
+}
+
+footer{
+    margin-top:5%;
+}
+
+p{
+    font-size: 7mm;
+    color: darkolivegreen;
+}
+
+p.shalin{
+    font-size: 7mm;
+    color:olivedrab;
+}
+
+p.pro{
+    font-size: 8mm;
+    color:darkcyan;
+}
