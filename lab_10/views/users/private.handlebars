@@ -1,0 +1,22 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>User Data!</title>
+    <link rel="stylesheet" href="../../public/site.css">
+</head>
+<body>
+    <header>
+            <h1>Logged In!</h1>
+    </header>
+    <main>
+        <p>Username: {{ username }}</p>
+        <p>First Name: {{ firstName }}</p>
+        <p>Last Name: {{ lastName }}</p>
+        <p>Profession: {{ profession }}</p>
+        <p>Bio: {{ bio }}</p>
+        <div>
+            <button type="button" onclick="window.location.href='./logout'" class="btn btn-default"> Logout </button>
+        </div>
+    </main>
+</body>
+</html> 

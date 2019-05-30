@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 12pt;
+    background-color: black;
+}
+
+main{
+    max-width: 75%;
+}
+
+h1{
+    font-size: 16pt;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Times New Roman';
+    background-color: white;
+}
+
+h3{
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+
+label{
+    font-weight: bold;
+    color: white; 
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    clear: both;
+}
+
+p{
+color: white;
+}
+
+.background_color{
+    background-color: white;
+}
+
+.error{
+    color: #dc3545;
+    font-weight: bold;
+}
+.login-form{
+    color: #dc3545;
+}
