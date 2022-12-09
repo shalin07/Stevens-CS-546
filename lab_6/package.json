@@ -10,7 +10,7 @@
   "author": "Shalin  Barot 10438998",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "node-uuid": "^1.4.7"
   }
 }
